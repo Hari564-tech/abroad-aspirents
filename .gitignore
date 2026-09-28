@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+npm-cache/
+.pnp
+.pnp.js
+
+# Build and Production Outputs
+dist/
+.output/
+.vercel/
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and runtime artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+.grok/preview.pid
+.grok/preview.log
+.grok/og-pending
+
+# QA Screenshots
+screenshots/
