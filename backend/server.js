@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { Groq } = require('groq-sdk');
-const db = require('./config/db');
+const db = require('./db');
 
 const app = express();
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
